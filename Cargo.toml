@@ -1,0 +1,12 @@
+[package]
+name = "homology-engine"
+version = "0.1.0"
+edition = "2024"
+description = "Persistent homology computation engine for topological data analysis"
+license = "MIT"
+repository = "https://github.com/SuperInstance/homology-engine"
+keywords = ["topology", "homology", "persistence", "tda", "simplicial"]
+categories = ["mathematics", "science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
